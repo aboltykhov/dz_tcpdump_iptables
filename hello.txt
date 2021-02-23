@@ -1,0 +1,30 @@
+
+Hello Al Bo!
+
+#######################################
+# Пример:
+# Чтобы скачать репозиторий dz_tcpdump_iptables
+#######################################
+pwd
+ll
+mkdir dz_tcpdump_iptables
+cd dz_tcpdump_iptables
+git init
+git remote add origin git@github.com:aboltykhov/dz_tcpdump_iptables.git
+git pull origin main && ll
+
+#######################################
+# Пример:
+# Чтобы отправить dz_tcpdump_iptables
+#######################################
+pwd
+ls -l
+git add .
+git commit -m "Добавлен файл инструкциий для репозитория dz_tcpdump_iptables"
+git branch -M main 
+git push -u origin main 
+
+#######################################
+# И т.д.
+#
+#######################################
